@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # 从环境变量读取（更安全）
 DIFY_API_URL = "https://api.dify.ai/v1/chat-messages"
-DIFY_API_KEY = os.getenv("DIFY_API_KEY")
+DIFY_API_KEY = os.getenv("9AGbXiuzqe8fOtIfe4vaqMEj")
 
 conversation_memory = []
 
